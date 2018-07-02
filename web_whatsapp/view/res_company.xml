@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <record model="ir.ui.view" id="view_company_inherit_data_form_zopim">
-        <field name="name">res.company.form.inherit.data.zopim.what</field>
+
+    <record id="view_company_inherit_data_form_what" model="ir.ui.view">
+        <field name="name">res.company.form.inherit.data.what</field>
         <field name="inherit_id" ref="base.view_company_form"/>
         <field name="model">res.company</field>
         <field name="arch" type="xml">
-            <notebook>
-                <page string="Zopim" name="zopim">
-                  <group>
-                    <group cols="4" name="base_zopim">
-                        <field name="zopim" required="1"/>
-                    </group>
-
-                  </group>
-                </page>
-            </notebook>
-             <field name='phone' position="after">
-              <field name="num_what"/>
-          </field>
+            <field name='phone' position="after">
+                <field name="num_what"/>
+            </field>
         </field>
     </record>
+    
 </odoo>

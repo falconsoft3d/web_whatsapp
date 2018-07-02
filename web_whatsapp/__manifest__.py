@@ -34,10 +34,12 @@ whatsapp
 =====================================================
 1-. whatsapp.\n
 """,
+    'depends': [
+        'base'
+    ],
     'data': [
-            'templates/whatsapp.xml',
-            'view/res_company.xml',
-
+        'view/res_company.xml',
+        'templates/whatsapp.xml'
     ],
     'demo': [],
     'test': [],
