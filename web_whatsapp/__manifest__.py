@@ -36,7 +36,9 @@ whatsapp
 """,
     'data': [
             'templates/whatsapp.xml',
-            ],
+            'view/res_company.xml',
+
+    ],
     'demo': [],
     'test': [],
     'installable': True,
