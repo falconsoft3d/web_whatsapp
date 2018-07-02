@@ -23,11 +23,11 @@
 {
     'name': 'Whatsapp MFH',
     'version': '10.0.0.1.0',
-    'author': "Falcón Solutions",
+    'author': 'Falcon Solutions SpA',
     'maintainer': 'Falcon Solutions',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
-    'category': 'Zopim',
+    'category': 'res_company',
     'summary': 'Web Login',
     'description': """
 whatsapp
