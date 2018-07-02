@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <odoo>
+
+        <template id="web_menu_alert_inherit" name="web_menu_alert_inherit" inherit_id="web.menu">
+                <xpath expr="//ul[@class='nav navbar-nav navbar-right oe_systray']" position="after">
+                    <div class="chatbot" style="bottom:10px; right:10px; position: fixed; z-index: 99999999;">
+        <!-- style 9  logo -->
+        <div class="ccw_style9 animated no-animation ccw-no-hover-an">
+            <a target="_blank" href="https://web.whatsapp.com/send?phone=56942994534&amp;text=" class="img-icon-a nofocus">
+                <img class="img-icon ccw-analytics" id="style-9" data-ccw="style-9" style="height: 48px;" src="/web_whatsapp/static/src/img/whatsapp-icon-square.svg" alt="WhatsApp chat"/>
+            </a>
+        </div>
+     </div>
+            </xpath>
+        </template>
+
+
+        <template id="login_inherit" inherit_id="web.login">
+            <xpath expr="//form[@class='oe_login_form']" position="after">
+                    <div class="chatbot" style="bottom:10px; right:10px; position: fixed; z-index: 99999999;">
+        <!-- style 9  logo -->
+        <div class="ccw_style9 animated no-animation ccw-no-hover-an">
+            <a target="_blank" href="https://web.whatsapp.com/send?phone=56942994534&amp;text=" class="img-icon-a nofocus">
+                <img class="img-icon ccw-analytics" id="style-9" data-ccw="style-9" style="height: 48px;" src="/web_whatsapp/static/src/img/whatsapp-icon-square.svg" alt="WhatsApp chat"/>
+            </a>
+        </div>
+     </div>
+            </xpath>
+        </template>
+    </odoo>
