@@ -41,7 +41,7 @@ whatsapp
         'view/res_company.xml',
         'templates/whatsapp.xml'
     ],
-    'images': ['static/description/car-marlon.jpg'],
+    'images': ['static/description/banner.jpg'],
     'demo': [],
     'test': [],
     'installable': True,
